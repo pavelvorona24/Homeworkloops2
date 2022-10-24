@@ -21,11 +21,8 @@ namespace Homework2
             {
                 inumberpow = Math.Pow(inumber, iCounter);
                 iresult = inumber.ToString() + " pow " + iCounter.ToString() + " = " + inumberpow.ToString();
-                //This is the string that will by added to the
-                //For example, if the user inputs 5, the first
-                //value will be “5 * 1 = 5”
                 lblOutput.Items.Add(iresult);
-                iCounter = iCounter + 1; // alternatively you can write iCounter ++
+                iCounter = iCounter + 1;
 
             }
 
